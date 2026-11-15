@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>After Earth — Junior Astronaut: Mars Voxel Outpost</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700&family=Outfit:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <!-- Full-Screen 3D Voxel World WebGL Canvas Container -->
+      <div id="canvas-container"></div>
+
+      <!-- Animated Main Lobby Screen (Planet Video, Starfield & 4 Menu Buttons) -->
+      <div id="main-lobby-screen" class="fullscreen-modal"></div>
+
+      <!-- Interactive 3D Google Earth-Style Mars Globe Selector & GRS Explorer -->
+      <div id="mars-globe-screen" class="fullscreen-modal hidden"></div>
+
+      <!-- Astronaut Helmet Visor HUD -->
+      <div id="visor-hud" class="hidden"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
